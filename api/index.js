@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
     res.json({
         status: "200",
         author: AUTHOR,
-        message: "Welcome! For issues, contact " + AUTHOR
+        message: "Welcome! For issues, contact " + AUTHOR + ", for documentation visit https://github.com/BouncingElf10/asbapi"
     });
 });
 
