@@ -48,7 +48,7 @@ npm start
 ```
 
 4. The API will run on `http://localhost:3000` by default.
-
+(or deploy on Vercel on the ["vercel"](https://github.com/BouncingElf10/asbapi/tree/vercel) branch)
 ---
 
 ## Reference
