@@ -1,22 +1,22 @@
 
 ---
 
-<p align="center"><img src="IMAGE" alt="abs_logo" width="80"></p>
+<p align="center"><img src="https://github.com/user-attachments/assets/7795e822-3acb-4ef6-9ab7-6a6967e74127" alt="abs_logo" width="300"></p>
 <h1 align="center">asbapi - The Unofficial ASB API</h1>
 <p align="center">For any devs at ASB wanting to get their fair share of data</p>
 
 ## Table of Contents
 
-* [Getting Started](#getting-started)
-* [Reference](#reference)
-
-    * [Endpoints](#endpoints)
-    * [Request Parameters](#request-parameters)
-    * [Response Parameters](#response-parameters)
-* [Error Handling](#error-handling)
-* [Examples](#examples)
-* [License](#license)
-* [Disclaimer](#disclaimer)
+- [Getting Started](#getting-started)
+- [Reference](#reference)
+   - [Endpoints](#endpoints)
+   - [Request Parameters](#request-parameters)
+   - [Response Parameters](#response-parameters)
+- [Getting Your Session Cookie](#getting-your-session-cookie)
+- [Error Handling](#error-handling)
+- [Examples](#examples)
+- [License](#license)
+- [Disclaimer](#disclaimer)
 
 ---
 
@@ -78,6 +78,32 @@ Base URL: `https://asbapi.vercel.app`
 | `error`    | Error message (if any)               |
 | `details`  | Detailed error message (for 500)     |
 | `contact`  | Contact info of the author           |
+
+---
+
+## Getting Your Session Cookie
+
+To use this API, you need your **ASB session cookie**. Here’s how to obtain it:
+
+1. Open your browser and log in to [myASB](https://myasb.asbarcelona.com/) with your school credentials.
+2. Once logged in, open **Developer Tools** (`F12` or `Ctrl+Shift+I` / `Cmd+Option+I`).
+3. Go to the **Application** (Chrome) or **Storage** (Firefox) tab.
+4. Look for **Cookies** in the sidebar and select the domain for `myasb`.
+5. Find the cookie named `sessionid`.
+6. Copy its **Value**. This is your session cookie.
+
+**Important:**
+
+* Your cookie is like a password. Do **not** share it publicly or commit it to GitHub.
+* Cookies may expire after some time — if requests stop working, repeat the steps above to grab a fresh cookie.
+
+<details>
+  <summary> Visual Guide</summary>
+   
+  <img width="1288" height="915" alt="helptogetcookie" src="https://github.com/user-attachments/assets/fc3cc23c-72af-4f9c-a8d4-791c78141d71" />
+  
+</details>
+
 
 ---
 
