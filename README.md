@@ -25,6 +25,7 @@
 ### Introduction
 
 The ASB API allows you to retrieve your info from the myasb website (for now only the schedule) by providing your session cookie. Useful for any custom app or need that requires your school info.
+(vercel version)
 
 ### Installation
 
