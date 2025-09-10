@@ -95,7 +95,7 @@ To use this API, you need your **ASB session cookie**. Here’s how to obtain it
 **Important:**
 
 * Your cookie is like a password. Do **not** share it publicly or commit it to GitHub.
-* Cookies may expire after some time — if requests stop working, repeat the steps above to grab a fresh cookie.
+* Cookies may expire after some time. If requests stop working, repeat the steps above to grab a fresh cookie.
 
 <details>
   <summary> Visual Guide</summary>
